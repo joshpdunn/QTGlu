@@ -167,11 +167,11 @@ def validate_selections(slot_dict, param_tup, gap_fr_0, a_sel_tup):
         errors.add( "Too many initial a-coordinate sources selected" )
     return ( errors, non_float_params, negative_params )
 
-def prep_seq(param_tup, a_sel_tup):
+#def prep_seq(param_tup, a_sel_tup):
 
-def gen_odd_slot(slot_num, slot_dict[slot_num], param_tup, gap_fr_0, sep_a_push):
+#def gen_odd_slot(slot_num, slot_dict[slot_num], param_tup, gap_fr_0, sep_a_push):
 
-def gen_even_slot(slot_num, slot_dict[slot_num], param_tup, gap_fr_0, sep_a_push):
+#def gen_even_slot(slot_num, slot_dict[slot_num], param_tup, gap_fr_0, sep_a_push):
 
 def generate_gcode(slot_dict, param_tup, gap_fr_0, a_sel_tup, sep_a_push):
     z_gcode = ( "G21\n"
